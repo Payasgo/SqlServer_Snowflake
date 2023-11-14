@@ -1,0 +1,6 @@
+{
+	"name": "SqlSHIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

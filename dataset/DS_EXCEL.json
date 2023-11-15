@@ -1,0 +1,24 @@
+{
+	"name": "DS_EXCEL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MyBlob",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "BlobStorage_csv"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "ajaypathuri",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ajaypathuri.xlsx",
+				"container": "demo"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}

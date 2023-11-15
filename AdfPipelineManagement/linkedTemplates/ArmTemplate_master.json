@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_AzureDataLakeStorage'"
 		},
+		"LS_MyBlob_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'LS_MyBlob'"
+		},
 		"LS_SqlServer_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'LS_SqlServer'",
@@ -53,6 +57,9 @@
 					},
 					"LS_AzureDataLakeStorage_accountKey": {
 						"value": "[parameters('LS_AzureDataLakeStorage_accountKey')]"
+					},
+					"LS_MyBlob_connectionString": {
+						"value": "[parameters('LS_MyBlob_connectionString')]"
 					},
 					"LS_SqlServer_connectionString": {
 						"value": "[parameters('LS_SqlServer_connectionString')]"

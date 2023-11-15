@@ -8,6 +8,9 @@
 		"LS_AzureDataLakeStorage_accountKey": {
 			"value": ""
 		},
+		"LS_MyBlob_connectionString": {
+			"value": ""
+		},
 		"LS_SqlServer_connectionString": {
 			"value": "Integrated Security=False;Data Source=MURALIYARLI;Initial Catalog=EMPLOYEE;User ID=kranthiyarli"
 		},

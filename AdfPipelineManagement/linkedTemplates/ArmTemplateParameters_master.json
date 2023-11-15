@@ -9,13 +9,13 @@
 			"value": ""
 		},
 		"LS_SqlServer_connectionString": {
-			"value": "Integrated Security=False;Data Source=KRANTHIYARLI;Initial Catalog=EMPLOYEE;User ID=kranthi"
+			"value": "Integrated Security=False;Data Source=MURALIYARLI;Initial Catalog=EMPLOYEE;User ID=kranthiyarli"
+		},
+		"AzureKeyVault_SqlServer_properties_typeProperties_baseUrl": {
+			"value": "https://keyforsql.vault.azure.net/"
 		},
 		"LS_AzureDataLakeStorage_properties_typeProperties_url": {
 			"value": "https://copydatacsv.dfs.core.windows.net/"
-		},
-		"Sql_AzureKeyVault_properties_typeProperties_baseUrl": {
-			"value": "https://azurekeys.vault.azure.net/"
 		},
 		"containerUri": {
 			"value": ""

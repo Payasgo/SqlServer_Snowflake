@@ -1,0 +1,21 @@
+{
+	"name": "SINK_DS_SqlServerTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SINK_LS_SqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Table_name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Tablenames"
+		}
+	}
+}
